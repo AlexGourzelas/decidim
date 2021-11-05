@@ -19,6 +19,7 @@ gem "puma", ">= 5.5.1"
 gem "faker", "~> 2.14"
 
 group :development, :test do
+  gem "decidim-deploy-heroku", git: "https://github.com/codegram/decidim-deploy-heroku.git"
   gem "byebug", "~> 11.0", platform: :mri
 
   # Use latest simplecov from master until next version of simplecov is
